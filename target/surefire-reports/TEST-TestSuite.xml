@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="39.946" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sharu\eclipse-workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\sharu\eclipse-workspace\PetStoreAPIAutomation\target\classes;C:\Users\sharu\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sharu\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sharu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sharu\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sharu\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\sharu\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\sharu\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\sharu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sharu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sharu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sharu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sharu\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sharu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sharu\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\sharu\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\sharu\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\sharu\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\sharu\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\sharu\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\sharu\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sharu\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\sharu\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\sharu\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\sharu\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sharu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sharu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sharu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sharu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sharu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sharu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sharu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sharu\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sharu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sharu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sharu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sharu\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\sharu\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\sharu\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\sharu\AppData\Local\Temp\surefire13909867464914224059\surefirebooter-20230924203826087_3.jar C:\Users\sharu\AppData\Local\Temp\surefire13909867464914224059 2023-09-24T20-38-23_766-jvmRun1 surefire-20230924203826087_1tmp surefire_0-20230924203826087_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sharu\eclipse-workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\sharu\eclipse-workspace\PetStoreAPIAutomation\target\classes;C:\Users\sharu\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sharu\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sharu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sharu\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sharu\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\sharu\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\sharu\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\sharu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sharu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sharu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sharu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sharu\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sharu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sharu\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\sharu\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\sharu\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\sharu\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\sharu\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\sharu\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\sharu\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sharu\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\sharu\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\sharu\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\sharu\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sharu\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sharu\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sharu\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sharu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sharu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sharu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sharu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sharu\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sharu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sharu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sharu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sharu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sharu\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\sharu\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\sharu\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sharu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sharu\eclipse-workspace\PetStoreAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sharu\AppData\Local\Temp\surefire13909867464914224059\surefirebooter-20230924203826087_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="sharu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sharu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sharu\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\sharu\eclipse-workspace\PetStoreAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\sharu\AppData\Local\Android\Sdk;C:\Users\sharu\apache-maven-3.8.6\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\sharu\AppData\Local\Microsoft\WindowsApps;C:\Users\sharu\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="createUserTest" classname="api.usermodel.tests.UserTests" time="5.953">
+    <system-out><![CDATA[20:38:33.689 INFO  - Created POJO object using unique info with faker
+ ******************  Testing create User *************
+[Assertion Passed]: Created user with name: jamie.hermann
+20:38:39.675 INFO  - Create user test pass
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getUser" classname="api.usermodel.tests.UserTests" time="2.927">
+    <system-out><![CDATA[ ******************  Testing get User *************
+{
+    "id": 187613,
+    "username": "jamie.hermann",
+    "firstName": "Jewel",
+    "lastName": "Corkery",
+    "email": "lasandra.brown@hotmail.com",
+    "password": "zltxiq2nb",
+    "phone": "658-355-5199",
+    "userStatus": 1
+}
+[Assertion Passed]: Get user with name: jamie.hermann
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser" classname="api.usermodel.tests.UserTests" time="2.976">
+    <system-out><![CDATA[ ******************  Testing update User *************
+{
+    "id": 187613,
+    "username": "jamie.hermann",
+    "firstName": "Jewel",
+    "lastName": "Corkery",
+    "email": "vinita.gorczany@hotmail.com",
+    "password": "zltxiq2nb",
+    "phone": "1-727-267-8984",
+    "userStatus": 1
+}
+[Assertion Passed]: Updated user with name: jamie.hermann
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser" classname="api.usermodel.tests.UserTests" time="4.894">
+    <system-out><![CDATA[ ******************  Testing delete User *************
+[Assertion Passed]: Deleted user with name: jamie.hermann
+]]></system-out>
+  </testcase>
+  <testcase name="createArrayPayload[1009, user.name1, test, user, test.user992@gmai.com, 829ijdhsj, 7482929487, 0](1)" classname="api.usermodel.tests.CreateUserUsingArray" time="0.0"/>
+  <testcase name="createArrayPayload[1010, user.name09, nitin, kadian, nitin_kadian929@gmail.com, ydj3389, 38847388383, 0](2)" classname="api.usermodel.tests.CreateUserUsingArray" time="0.001"/>
+  <testcase name="createArrayPayload[1090, user_name89892, saurabh, luthra, sauraby72883@gmai.com, hjskks@ff, 73682903, 1](3)" classname="api.usermodel.tests.CreateUserUsingArray" time="0.0"/>
+  <testcase name="createUsers" classname="api.usermodel.tests.CreateUserUsingArray" time="1.408">
+    <system-out><![CDATA[ ******************  Testing create users using array *************
+[Assertion Passed]: Created users using array
+]]></system-out>
+  </testcase>
+  <testcase name="getUsersTest[user.name1](1)" classname="api.usermodel.tests.CreateUserUsingArray" time="1.416">
+    <system-out><![CDATA[ ******************  Testing get user (created using array) *************
+{
+    "id": 1009,
+    "username": "user.name1",
+    "firstName": "test",
+    "lastName": "user",
+    "email": "test.user992@gmai.com",
+    "password": "829ijdhsj",
+    "phone": "7482929487",
+    "userStatus": 0
+}
+[Assertion Passed]: Got user using array with name : user.name1
+]]></system-out>
+  </testcase>
+  <testcase name="getUsersTest[user.name09](2)" classname="api.usermodel.tests.CreateUserUsingArray" time="1.52">
+    <system-out><![CDATA[ ******************  Testing get user (created using array) *************
+{
+    "id": 1010,
+    "username": "user.name09",
+    "firstName": "nitin",
+    "lastName": "kadian",
+    "email": "nitin_kadian929@gmail.com",
+    "password": "ydj3389",
+    "phone": "38847388383",
+    "userStatus": 0
+}
+[Assertion Passed]: Got user using array with name : user.name09
+]]></system-out>
+  </testcase>
+  <testcase name="getUsersTest[user_name89892](3)" classname="api.usermodel.tests.CreateUserUsingArray" time="1.463">
+    <system-out><![CDATA[ ******************  Testing get user (created using array) *************
+{
+    "id": 1090,
+    "username": "user_name89892",
+    "firstName": "saurabh",
+    "lastName": "luthra",
+    "email": "sauraby72883@gmai.com",
+    "password": "hjskks@ff",
+    "phone": "73682903",
+    "userStatus": 1
+}
+[Assertion Passed]: Got user using array with name : user_name89892
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTest[user.name1](1)" classname="api.usermodel.tests.CreateUserUsingArray" time="2.939">
+    <system-out><![CDATA[ ******************  Testing delete user (created using array) *************
+[Assertion Passed]: Deleted user using array with name : user.name1
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTest[user.name09](2)" classname="api.usermodel.tests.CreateUserUsingArray" time="2.841">
+    <system-out><![CDATA[ ******************  Testing delete user (created using array) *************
+[Assertion Passed]: Deleted user using array with name : user.name09
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTest[user_name89892](3)" classname="api.usermodel.tests.CreateUserUsingArray" time="2.863">
+    <system-out><![CDATA[ ******************  Testing delete user (created using array) *************
+[Assertion Passed]: Deleted user using array with name : user_name89892
+]]></system-out>
+  </testcase>
+  <testcase name="getNonExistentUserTest" classname="api.usermodel.tests.GetInvalidUserTest" time="1.494"/>
+</testsuite>

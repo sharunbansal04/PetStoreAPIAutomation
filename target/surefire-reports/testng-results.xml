@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ ******************  Testing create User *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Created user with name: jamie.hermann]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing get User *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Get user with name: jamie.hermann]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing update User *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Updated user with name: jamie.hermann]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing delete User *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Deleted user with name: jamie.hermann]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing create users using array *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Created users using array]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing get user (created using array) *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Got user using array with name : user.name1]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing get user (created using array) *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Got user using array with name : user.name09]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing get user (created using array) *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Got user using array with name : user_name89892]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing delete user (created using array) *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Deleted user using array with name : user.name1]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing delete user (created using array) *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Deleted user using array with name : user.name09]]>
+    </line>
+    <line>
+      <![CDATA[ ******************  Testing delete user (created using array) *************]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed]: Deleted user using array with name : user_name89892]]>
+    </line>
+    <line>
+      <![CDATA[[Assertion Passed] : Get user with non-existent name results 404 not found]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-24T20:38:32 IST" name="Suite" finished-at="2023-09-24T20:39:08 IST" duration-ms="36006">
+    <groups>
+    </groups>
+    <test started-at="2023-09-24T20:38:32 IST" name="Smoke- basic crud" finished-at="2023-09-24T20:38:50 IST" duration-ms="17552">
+      <class name="api.usermodel.tests.UserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.usermodel.tests.UserTests@3a4621bd]" started-at="2023-09-24T20:38:32 IST" name="setUp" finished-at="2023-09-24T20:38:33 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUserTest()[pri:1, instance:api.usermodel.tests.UserTests@3a4621bd]" started-at="2023-09-24T20:38:33 IST" name="createUserTest" finished-at="2023-09-24T20:38:39 IST" duration-ms="5966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing create User *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Created user with name: jamie.hermann]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getUser()[pri:2, instance:api.usermodel.tests.UserTests@3a4621bd]" started-at="2023-09-24T20:38:39 IST" name="getUser" finished-at="2023-09-24T20:38:42 IST" duration-ms="2877" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing get User *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Get user with name: jamie.hermann]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="updateUser()[pri:3, instance:api.usermodel.tests.UserTests@3a4621bd]" started-at="2023-09-24T20:38:42 IST" name="updateUser" finished-at="2023-09-24T20:38:45 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing update User *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Updated user with name: jamie.hermann]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:4, instance:api.usermodel.tests.UserTests@3a4621bd]" started-at="2023-09-24T20:38:45 IST" name="deleteUser" finished-at="2023-09-24T20:38:50 IST" duration-ms="4891" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing delete User *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Deleted user with name: jamie.hermann]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- api.usermodel.tests.UserTests -->
+    </test> <!-- Smoke- basic crud -->
+    <test started-at="2023-09-24T20:38:51 IST" name="Regression" finished-at="2023-09-24T20:39:08 IST" duration-ms="17499">
+      <class name="api.usermodel.tests.CreateUserUsingArray">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:51 IST" name="setUp" finished-at="2023-09-24T20:38:52 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createArrayPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:52 IST" name="createArrayPayload" data-provider="getAllUserData" finished-at="2023-09-24T20:38:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user.name1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test.user992@gmai.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[829ijdhsj]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7482929487]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createArrayPayload -->
+        <test-method signature="createArrayPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:52 IST" name="createArrayPayload" data-provider="getAllUserData" finished-at="2023-09-24T20:38:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user.name09]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nitin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kadian]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[nitin_kadian929@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ydj3389]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[38847388383]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createArrayPayload -->
+        <test-method signature="createArrayPayload(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:52 IST" name="createArrayPayload" data-provider="getAllUserData" finished-at="2023-09-24T20:38:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1090]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user_name89892]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saurabh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[luthra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sauraby72883@gmai.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hjskks@ff]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[73682903]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createArrayPayload -->
+        <test-method signature="createUsers()[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:52 IST" name="createUsers" finished-at="2023-09-24T20:38:54 IST" depends-on-methods="api.usermodel.tests.CreateUserUsingArray.createArrayPayload" duration-ms="1406" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing create users using array *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Created users using array]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method signature="getUsersTest(java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:54 IST" name="getUsersTest" data-provider="getAllUsernames" finished-at="2023-09-24T20:38:55 IST" depends-on-methods="api.usermodel.tests.CreateUserUsingArray.createUsers" duration-ms="1412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user.name1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing get user (created using array) *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Got user using array with name : user.name1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method signature="getUsersTest(java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:55 IST" name="getUsersTest" data-provider="getAllUsernames" finished-at="2023-09-24T20:38:57 IST" depends-on-methods="api.usermodel.tests.CreateUserUsingArray.createUsers" duration-ms="1515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user.name09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing get user (created using array) *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Got user using array with name : user.name09]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method signature="getUsersTest(java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:57 IST" name="getUsersTest" data-provider="getAllUsernames" finished-at="2023-09-24T20:38:58 IST" depends-on-methods="api.usermodel.tests.CreateUserUsingArray.createUsers" duration-ms="1460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_name89892]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing get user (created using array) *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Got user using array with name : user_name89892]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method signature="deleteUserTest(java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:38:58 IST" name="deleteUserTest" data-provider="getAllUsernames" finished-at="2023-09-24T20:39:01 IST" depends-on-methods="api.usermodel.tests.CreateUserUsingArray.getUsersTest" duration-ms="2926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user.name1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing delete user (created using array) *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Deleted user using array with name : user.name1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method signature="deleteUserTest(java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:39:01 IST" name="deleteUserTest" data-provider="getAllUsernames" finished-at="2023-09-24T20:39:04 IST" depends-on-methods="api.usermodel.tests.CreateUserUsingArray.getUsersTest" duration-ms="2845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user.name09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing delete user (created using array) *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Deleted user using array with name : user.name09]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method signature="deleteUserTest(java.lang.String)[pri:0, instance:api.usermodel.tests.CreateUserUsingArray@79179359]" started-at="2023-09-24T20:39:04 IST" name="deleteUserTest" data-provider="getAllUsernames" finished-at="2023-09-24T20:39:07 IST" depends-on-methods="api.usermodel.tests.CreateUserUsingArray.getUsersTest" duration-ms="2851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_name89892]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ******************  Testing delete user (created using array) *************]]>
+            </line>
+            <line>
+              <![CDATA[[Assertion Passed]: Deleted user using array with name : user_name89892]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- api.usermodel.tests.CreateUserUsingArray -->
+      <class name="api.usermodel.tests.GetInvalidUserTest">
+        <test-method signature="getNonExistentUserTest()[pri:0, instance:api.usermodel.tests.GetInvalidUserTest@dbd8e44]" started-at="2023-09-24T20:39:07 IST" name="getNonExistentUserTest" finished-at="2023-09-24T20:39:08 IST" duration-ms="1513" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[Assertion Passed] : Get user with non-existent name results 404 not found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getNonExistentUserTest -->
+      </class> <!-- api.usermodel.tests.GetInvalidUserTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
